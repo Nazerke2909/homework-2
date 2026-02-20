@@ -1,0 +1,7 @@
+package com.narxoz.rpg.loot;
+import java.util.List;
+public class FireLootTable implements LootTable {
+    public List<String> getItems() { return List.of("Fire Gem", "Dragon Scale"); }
+    public int getGoldDrop() { return 500; }
+    public LootTable clone() { return new FireLootTable(); }
+}

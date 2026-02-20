@@ -1,10 +1,10 @@
 package com.narxoz.rpg.enemy;
 import com.narxoz.rpg.combat.Ability;
 import java.util.ArrayList;
-public class Goblin extends Enemy {
+public class Skeleton extends Enemy {
     @Override
     public Enemy clone() {
-        Goblin copy = new Goblin();
+        Skeleton copy = new Skeleton();
         copy.name = this.name;
         copy.health = this.health;
         copy.damage = this.damage;
